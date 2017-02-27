@@ -11,7 +11,7 @@ import com.senthamil.catapp.model.StudentMark;
 import com.senthamil.catapp.model.Subject;
 import com.senthamil.catapp.util.ConnectionUtil;
 
-public class AssessmentDAO {
+public class AssessmentDAO { 
 	private JdbcTemplate jdbcTemplate = ConnectionUtil.getjdbcTemplate();
 	StudentDAO studentDAO = new StudentDAO();
 	SubjectDAO subjectDAO = new SubjectDAO();

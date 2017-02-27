@@ -9,7 +9,7 @@ import com.senthamil.catapp.model.StudentMark;
 public class AssessmentDAOTest {
 
 	@Test
-	public void testFindById() {
+	public void testFindById() { 
 
 		AssessmentDAO dao = new AssessmentDAO();
 		StudentMark studentMark = dao.findById(1);

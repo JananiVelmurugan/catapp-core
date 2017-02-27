@@ -8,7 +8,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import com.senthamil.catapp.model.Student;
 import com.senthamil.catapp.util.ConnectionUtil;
 
-public class StudentDAO {
+public class StudentDAO { 
 	private JdbcTemplate jdbcTemplate = ConnectionUtil.getjdbcTemplate();
 
 	public void save(Student student) {

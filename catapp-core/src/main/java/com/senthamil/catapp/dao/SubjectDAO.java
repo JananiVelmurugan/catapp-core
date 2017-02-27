@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import com.senthamil.catapp.model.Subject;
 import com.senthamil.catapp.util.ConnectionUtil;
 
-public class SubjectDAO {
+public class SubjectDAO { 
 	private JdbcTemplate jdbcTemplate = ConnectionUtil.getjdbcTemplate();
 
 	public List<Subject> list() {
